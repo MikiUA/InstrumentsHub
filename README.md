@@ -3,7 +3,8 @@
 <b>Features yet:</b>
 - Playing the piano;
 - Playing DJ themed keyboard.
-- these work both with keyboard (pc) and onclick (mainly for mobile)
+- these work both with keyboard (pc) and onclick (mainly for mobile).
+- screenshots can be found in corresponding folder
 
 <b> Implementation:</b><br>
 Why did I even begin this project - because single-page versions i have found on the network feeled like a lot of wasted work on every detail, key and script.
@@ -16,7 +17,7 @@ So what i am trying to make an easy to use approach, where all behind the scenes
 - Also added a unique script to DJ keyboard, that allows user to choose their own sound preset (sometimes bugged),script mounts a setting directly to the title dropdown menu
 - Sizing of different devices is taken into consideration, though more testing is required.
 
-<b> The most clear example</b> of developer work economy is the following line:<br>
+<b> The most clear example</b> of developer work economy is that the following line:<br>
 `<div onclick="playkey(this)" data-key="65" class="key" data-note="C"> <span class="keyboard hints">A</span> <span class="note hints">C</span> </div>`
  <br> transformed into just:<br>
 ` <div class="playkey_button_container" data-keyboard_str="A" data-note="C">   </div>`<br>
