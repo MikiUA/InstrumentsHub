@@ -1,0 +1,15 @@
+.instrument_container{
+display: block;
+height: 9em;
+width: 30em;
+border: 1px solid black;
+}
+.instrument_image{
+height: 100%;
+width: 100%;
+}
+.instrument_text{
+position: absolute;
+opacity: 0;
+left: 2%;
+}

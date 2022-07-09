@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIH DJ kit</title>
+    <link rel="stylesheet" href="styles/mih_styles.css">
+    <link rel="stylesheet" href="styles/mih_dj.css">
+</head>
+<body>
+    <div id="title" data-instrument="DJ" data-hubname="kit"></div>
+
+    <div class="playkeys_parent_container">
+        <div class="playkey_button_container " data-keyboard_str="q" data-note="boom">
+        </div>
+        <div class="playkey_button_container" data-keyboard_str="w" data-note="Fm_A_Boom">
+        </div>
+        
+        <div class="playkey_button_container" data-keyboard_str="e" data-note="Fm_Rounders">
+        </div>
+        
+        <div class="playkey_button_container" data-keyboard_str="r" data-note="Fm_Wtch">
+        </div>
+        <div class="playkey_button_container" data-keyboard_str="a" data-note="Gsh_BassElectric">
+        </div>
+        <div class="playkey_button_container" data-keyboard_str="s" data-note="Kick">
+        </div>
+        <div class="playkey_button_container" data-keyboard_str="d" data-note="Kick2">
+        </div>
+        <div class="playkey_button_container" data-keyboard_str="f" data-note="Kicks">
+        </div>
+        <div class="playkey_button_container" data-keyboard_str="z" data-note="LongKick">
+        </div>
+        <div class="playkey_button_container" data-keyboard_str="x" data-note="Cm_NeuroBass">
+        </div>
+       
+    </div>
+    <div style:display="none">
+        all sounds were taken from: https://www.noiiz.com/sounds
+    <audio data-note="boom" src="./sounds/dj/Boom.wav"></audio>
+    <audio data-note="Fm_A_Boom" src="./sounds/dj/Fm_A_Boom.wav"></audio>
+    <audio data-note="Fm_Rounders" src="./sounds/dj/Fm_Rounders.wav"></audio>
+    <audio data-note="Fm_Wtch" src="./sounds/dj/Fm_Wtch.wav"></audio>
+    <audio data-note="Gsh_BassElectric" src="./sounds/dj/Gsh_BassElectric.wav"></audio>
+    <audio data-note="Kick" src="./sounds/dj/Kick.wav"></audio>
+    <audio data-note="Kick2" src="./sounds/dj/Kick2.wav"></audio>
+    <audio data-note="Kicks" src="./sounds/dj/Kicks.wav"></audio>
+    <audio data-note="LongKick" src="./sounds/dj/LongKick.wav"></audio>
+    <audio data-note="Cm_NeuroBass" src="./sounds/dj/Cm_NeuroBass.wav"></audio>
+    </div>
+
+    
+    <script src="script/NoreactTitle.js"></script>
+    <script src="script/NoreactPlayAudio.js"></script>
+    <script src="script/NoreactDisplayPlaykey.js"></script>
+    <script src="script/dj_select_files.js"></script>
+    
+</body>
+</html>

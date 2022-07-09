@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIH Piano</title>
+    <link rel="stylesheet" href="styles/mih_styles.css">
+    <link rel="stylesheet" href="styles/mih_piano.css">
+</head>
+<body class="background">
+    <div id="title" data-instrument="Piano" data-hubname="hub"></div>
+
+    <div class="playkeys_parent_container">
+        <div class="playkey_button_container cf" data-keyboard_id="65" data-keyboard_str="A" data-note="C">
+        </div>
+        <div class="playkey_button_container sharp" data-keyboard_id="87" data-keyboard_str="W" data-note="C#">
+        </div>
+        
+        <div class="playkey_button_container" data-keyboard_id="83" data-keyboard_str="S" data-note="D">
+        </div>
+        
+        <div class="playkey_button_container sharp" data-keyboard_id="69" data-keyboard_str="E" data-note="D#">
+        </div>
+        <div class="playkey_button_container" data-keyboard_id="68" data-keyboard_str="D" data-note="E">
+        </div>
+        <div class="playkey_button_container cf" data-keyboard_id="70" data-keyboard_str="F" data-note="F">
+        </div>
+        <div class="playkey_button_container sharp" data-keyboard_id="84" data-keyboard_str="T" data-note="F#">
+        </div>
+        <div class="playkey_button_container" data-keyboard_id="71" data-keyboard_str="G" data-note="G">
+        </div>
+        <div class="playkey_button_container sharp" data-keyboard_id="89" data-keyboard_str="Y" data-note="G#">
+        </div>
+        <div class="playkey_button_container" data-keyboard_id="72" data-keyboard_str="H" data-note="A">
+        </div>
+        <div class="playkey_button_container sharp" data-keyboard_id="85" data-keyboard_str="U" data-note="A#">
+        </div>
+        <div class="playkey_button_container" data-keyboard_id="74" data-keyboard_str="J" data-note="B">
+        </div>
+        <div class="playkey_button_container cf" data-keyboard_id="75" data-keyboard_str="K" data-note="C">
+        </div>
+        <div class="playkey_button_container sharp" data-keyboard_id="79" data-keyboard_str="O" data-note="C#">
+        </div>
+        <div class="playkey_button_container" data-keyboard_id="76" data-keyboard_str="L" data-note="D">
+        </div>
+        <div class="playkey_button_container sharp" data-keyboard_id="80" data-keyboard_str="P" data-note="D#">
+        </div>
+        <div class="playkey_button_container" data-keyboard_id="186" data-keyboard_str=";" data-note="E">
+        </div>
+    </div>
+    <audio data-key="65" src="http://carolinegabriel.com/demo/js-keyboard/sounds/040.wav"></audio>
+    <audio data-key="87" src="http://carolinegabriel.com/demo/js-keyboard/sounds/041.wav"></audio>
+    <audio data-key="83" src="http://carolinegabriel.com/demo/js-keyboard/sounds/042.wav"></audio>
+    <audio data-key="69" src="http://carolinegabriel.com/demo/js-keyboard/sounds/043.wav"></audio>
+    <audio data-key="68" src="http://carolinegabriel.com/demo/js-keyboard/sounds/044.wav"></audio>
+    <audio data-key="70" src="http://carolinegabriel.com/demo/js-keyboard/sounds/045.wav"></audio>
+    <audio data-key="84" src="http://carolinegabriel.com/demo/js-keyboard/sounds/046.wav"></audio>
+    <audio data-key="71" src="http://carolinegabriel.com/demo/js-keyboard/sounds/047.wav"></audio>
+    <audio data-key="89" src="http://carolinegabriel.com/demo/js-keyboard/sounds/048.wav"></audio>
+    <audio data-key="72" src="http://carolinegabriel.com/demo/js-keyboard/sounds/049.wav"></audio>
+    <audio data-key="85" src="http://carolinegabriel.com/demo/js-keyboard/sounds/050.wav"></audio>
+    <audio data-key="74" src="http://carolinegabriel.com/demo/js-keyboard/sounds/051.wav"></audio>
+    <audio data-key="75" src="http://carolinegabriel.com/demo/js-keyboard/sounds/052.wav"></audio>
+    <audio data-key="79" src="http://carolinegabriel.com/demo/js-keyboard/sounds/053.wav"></audio>
+    <audio data-key="76" src="http://carolinegabriel.com/demo/js-keyboard/sounds/054.wav"></audio>
+    <audio data-key="80" src="http://carolinegabriel.com/demo/js-keyboard/sounds/055.wav"></audio>
+    <audio data-key="186" src="http://carolinegabriel.com/demo/js-keyboard/sounds/056.wav"></audio>
+
+    <video playsinline autoplay muted loop id="bgvid" poster="http://carolinegabriel.com/demo/js-keyboard/video/bg.jpg">
+        <source src="img/2.mp4" type="video/mp4">
+    </video>
+    
+    <script src="script/NoreactTitle.js"></script>
+    <script src="script/NoreactPlayAudioOld.js"></script>
+    <script src="script/NoreactDisplayPlaykey.js"></script>
+
+</body>
+</html>
